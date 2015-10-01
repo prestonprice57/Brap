@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CE792A1BBDDC6000E8A602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE79291BBDDC6000E8A602 /* AppDelegate.swift */; };
+		84CE792C1BBDDC6000E8A602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE792B1BBDDC6000E8A602 /* ViewController.swift */; };
+		84CE792F1BBDDC6000E8A602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CE792D1BBDDC6000E8A602 /* Main.storyboard */; };
+		84CE79311BBDDC6000E8A602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79301BBDDC6000E8A602 /* Assets.xcassets */; };
+		84CE79341BBDDC6000E8A602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79321BBDDC6000E8A602 /* LaunchScreen.storyboard */; };
+		84CE793F1BBDDC6000E8A602 /* BrapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE793E1BBDDC6000E8A602 /* BrapTests.swift */; };
+		84CE794A1BBDDC6000E8A602 /* BrapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE79491BBDDC6000E8A602 /* BrapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CE793B1BBDDC6000E8A602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CE791E1BBDDC5F00E8A602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CE79251BBDDC6000E8A602;
+			remoteInfo = Brap;
+		};
+		84CE79461BBDDC6000E8A602 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CE791E1BBDDC5F00E8A602 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CE79251BBDDC6000E8A602;
+			remoteInfo = Brap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84CE79261BBDDC6000E8A602 /* Brap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CE79291BBDDC6000E8A602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84CE792B1BBDDC6000E8A602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84CE792E1BBDDC6000E8A602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CE79301BBDDC6000E8A602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CE79331BBDDC6000E8A602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CE79351BBDDC6000E8A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CE793A1BBDDC6000E8A602 /* BrapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CE793E1BBDDC6000E8A602 /* BrapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrapTests.swift; sourceTree = "<group>"; };
+		84CE79401BBDDC6000E8A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CE79451BBDDC6000E8A602 /* BrapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CE79491BBDDC6000E8A602 /* BrapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrapUITests.swift; sourceTree = "<group>"; };
+		84CE794B1BBDDC6000E8A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CE79231BBDDC6000E8A602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CE79371BBDDC6000E8A602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CE79421BBDDC6000E8A602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84CE791D1BBDDC5F00E8A602 = {
+			isa = PBXGroup;
+			children = (
+				84CE79281BBDDC6000E8A602 /* Brap */,
+				84CE793D1BBDDC6000E8A602 /* BrapTests */,
+				84CE79481BBDDC6000E8A602 /* BrapUITests */,
+				84CE79271BBDDC6000E8A602 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84CE79271BBDDC6000E8A602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CE79261BBDDC6000E8A602 /* Brap.app */,
+				84CE793A1BBDDC6000E8A602 /* BrapTests.xctest */,
+				84CE79451BBDDC6000E8A602 /* BrapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CE79281BBDDC6000E8A602 /* Brap */ = {
+			isa = PBXGroup;
+			children = (
+				84CE79291BBDDC6000E8A602 /* AppDelegate.swift */,
+				84CE792B1BBDDC6000E8A602 /* ViewController.swift */,
+				84CE792D1BBDDC6000E8A602 /* Main.storyboard */,
+				84CE79301BBDDC6000E8A602 /* Assets.xcassets */,
+				84CE79321BBDDC6000E8A602 /* LaunchScreen.storyboard */,
+				84CE79351BBDDC6000E8A602 /* Info.plist */,
+			);
+			path = Brap;
+			sourceTree = "<group>";
+		};
+		84CE793D1BBDDC6000E8A602 /* BrapTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CE793E1BBDDC6000E8A602 /* BrapTests.swift */,
+				84CE79401BBDDC6000E8A602 /* Info.plist */,
+			);
+			path = BrapTests;
+			sourceTree = "<group>";
+		};
+		84CE79481BBDDC6000E8A602 /* BrapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84CE79491BBDDC6000E8A602 /* BrapUITests.swift */,
+				84CE794B1BBDDC6000E8A602 /* Info.plist */,
+			);
+			path = BrapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CE79251BBDDC6000E8A602 /* Brap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CE794E1BBDDC6000E8A602 /* Build configuration list for PBXNativeTarget "Brap" */;
+			buildPhases = (
+				84CE79221BBDDC6000E8A602 /* Sources */,
+				84CE79231BBDDC6000E8A602 /* Frameworks */,
+				84CE79241BBDDC6000E8A602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brap;
+			productName = Brap;
+			productReference = 84CE79261BBDDC6000E8A602 /* Brap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CE79391BBDDC6000E8A602 /* BrapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CE79511BBDDC6000E8A602 /* Build configuration list for PBXNativeTarget "BrapTests" */;
+			buildPhases = (
+				84CE79361BBDDC6000E8A602 /* Sources */,
+				84CE79371BBDDC6000E8A602 /* Frameworks */,
+				84CE79381BBDDC6000E8A602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CE793C1BBDDC6000E8A602 /* PBXTargetDependency */,
+			);
+			name = BrapTests;
+			productName = BrapTests;
+			productReference = 84CE793A1BBDDC6000E8A602 /* BrapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84CE79441BBDDC6000E8A602 /* BrapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CE79541BBDDC6000E8A602 /* Build configuration list for PBXNativeTarget "BrapUITests" */;
+			buildPhases = (
+				84CE79411BBDDC6000E8A602 /* Sources */,
+				84CE79421BBDDC6000E8A602 /* Frameworks */,
+				84CE79431BBDDC6000E8A602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CE79471BBDDC6000E8A602 /* PBXTargetDependency */,
+			);
+			name = BrapUITests;
+			productName = BrapUITests;
+			productReference = 84CE79451BBDDC6000E8A602 /* BrapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CE791E1BBDDC5F00E8A602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = BendyStraw;
+				TargetAttributes = {
+					84CE79251BBDDC6000E8A602 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					84CE79391BBDDC6000E8A602 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 84CE79251BBDDC6000E8A602;
+					};
+					84CE79441BBDDC6000E8A602 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 84CE79251BBDDC6000E8A602;
+					};
+				};
+			};
+			buildConfigurationList = 84CE79211BBDDC5F00E8A602 /* Build configuration list for PBXProject "Brap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CE791D1BBDDC5F00E8A602;
+			productRefGroup = 84CE79271BBDDC6000E8A602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CE79251BBDDC6000E8A602 /* Brap */,
+				84CE79391BBDDC6000E8A602 /* BrapTests */,
+				84CE79441BBDDC6000E8A602 /* BrapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CE79241BBDDC6000E8A602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE79341BBDDC6000E8A602 /* LaunchScreen.storyboard in Resources */,
+				84CE79311BBDDC6000E8A602 /* Assets.xcassets in Resources */,
+				84CE792F1BBDDC6000E8A602 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CE79381BBDDC6000E8A602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CE79431BBDDC6000E8A602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CE79221BBDDC6000E8A602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE792C1BBDDC6000E8A602 /* ViewController.swift in Sources */,
+				84CE792A1BBDDC6000E8A602 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CE79361BBDDC6000E8A602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE793F1BBDDC6000E8A602 /* BrapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CE79411BBDDC6000E8A602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CE794A1BBDDC6000E8A602 /* BrapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CE793C1BBDDC6000E8A602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CE79251BBDDC6000E8A602 /* Brap */;
+			targetProxy = 84CE793B1BBDDC6000E8A602 /* PBXContainerItemProxy */;
+		};
+		84CE79471BBDDC6000E8A602 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CE79251BBDDC6000E8A602 /* Brap */;
+			targetProxy = 84CE79461BBDDC6000E8A602 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CE792D1BBDDC6000E8A602 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CE792E1BBDDC6000E8A602 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CE79321BBDDC6000E8A602 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CE79331BBDDC6000E8A602 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CE794C1BBDDC6000E8A602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CE794D1BBDDC6000E8A602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CE794F1BBDDC6000E8A602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.Brap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84CE79501BBDDC6000E8A602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.Brap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84CE79521BBDDC6000E8A602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.BrapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brap.app/Brap";
+			};
+			name = Debug;
+		};
+		84CE79531BBDDC6000E8A602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.BrapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brap.app/Brap";
+			};
+			name = Release;
+		};
+		84CE79551BBDDC6000E8A602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BrapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.BrapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Brap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84CE79561BBDDC6000E8A602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BrapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.BrapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Brap;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CE79211BBDDC5F00E8A602 /* Build configuration list for PBXProject "Brap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CE794C1BBDDC6000E8A602 /* Debug */,
+				84CE794D1BBDDC6000E8A602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CE794E1BBDDC6000E8A602 /* Build configuration list for PBXNativeTarget "Brap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CE794F1BBDDC6000E8A602 /* Debug */,
+				84CE79501BBDDC6000E8A602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84CE79511BBDDC6000E8A602 /* Build configuration list for PBXNativeTarget "BrapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CE79521BBDDC6000E8A602 /* Debug */,
+				84CE79531BBDDC6000E8A602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84CE79541BBDDC6000E8A602 /* Build configuration list for PBXNativeTarget "BrapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CE79551BBDDC6000E8A602 /* Debug */,
+				84CE79561BBDDC6000E8A602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CE791E1BBDDC5F00E8A602 /* Project object */;
+}
