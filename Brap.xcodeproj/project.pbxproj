@@ -14,6 +14,19 @@
 		84CE79341BBDDC6000E8A602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79321BBDDC6000E8A602 /* LaunchScreen.storyboard */; };
 		84CE793F1BBDDC6000E8A602 /* BrapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE793E1BBDDC6000E8A602 /* BrapTests.swift */; };
 		84CE794A1BBDDC6000E8A602 /* BrapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE79491BBDDC6000E8A602 /* BrapUITests.swift */; };
+		84CE79651BBDE73C00E8A602 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79641BBDE73B00E8A602 /* SystemConfiguration.framework */; };
+		84CE79671BBDE74200E8A602 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79661BBDE74200E8A602 /* MessageUI.framework */; };
+		84CE796A1BBDE74B00E8A602 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79681BBDE74B00E8A602 /* EventKit.framework */; };
+		84CE796B1BBDE74B00E8A602 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79691BBDE74B00E8A602 /* EventKitUI.framework */; };
+		84CE796E1BBDE75600E8A602 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE796C1BBDE75500E8A602 /* CoreGraphics.framework */; };
+		84CE796F1BBDE75600E8A602 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE796D1BBDE75600E8A602 /* CoreTelephony.framework */; };
+		84CE79711BBDE76200E8A602 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79701BBDE76200E8A602 /* AudioToolbox.framework */; };
+		84CE79731BBDE76D00E8A602 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79721BBDE76D00E8A602 /* AdSupport.framework */; };
+		84CE79751BBDE77600E8A602 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79741BBDE77600E8A602 /* AVFoundation.framework */; };
+		84CE797B1BBDF52900E8A602 /* SoundSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE797A1BBDF52900E8A602 /* SoundSelector.swift */; settings = {ASSET_TAGS = (); }; };
+		84CE799D1BBE0A1300E8A602 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE799C1BBE0A1300E8A602 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
+		84CE79A41BBE1A6900E8A602 /* 2-Stroke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79A21BBE1A6900E8A602 /* 2-Stroke.wav */; settings = {ASSET_TAGS = (); }; };
+		84CE79A51BBE1A6900E8A602 /* 4-Stroke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79A31BBE1A6900E8A602 /* 4-Stroke.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,21 @@
 		84CE79451BBDDC6000E8A602 /* BrapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CE79491BBDDC6000E8A602 /* BrapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrapUITests.swift; sourceTree = "<group>"; };
 		84CE794B1BBDDC6000E8A602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CE79641BBDE73B00E8A602 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84CE79661BBDE74200E8A602 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		84CE79681BBDE74B00E8A602 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		84CE79691BBDE74B00E8A602 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		84CE796C1BBDE75500E8A602 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84CE796D1BBDE75600E8A602 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		84CE79701BBDE76200E8A602 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		84CE79721BBDE76D00E8A602 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		84CE79741BBDE77600E8A602 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84CE797A1BBDF52900E8A602 /* SoundSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundSelector.swift; sourceTree = "<group>"; };
+		84CE799A1BBE0A1300E8A602 /* Brap-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Brap-Bridging-Header.h"; sourceTree = "<group>"; };
+		84CE799B1BBE0A1300E8A602 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		84CE799C1BBE0A1300E8A602 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		84CE79A21BBE1A6900E8A602 /* 2-Stroke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-Stroke.wav"; sourceTree = "<group>"; };
+		84CE79A31BBE1A6900E8A602 /* 4-Stroke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "4-Stroke.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CE79751BBDE77600E8A602 /* AVFoundation.framework in Frameworks */,
+				84CE79731BBDE76D00E8A602 /* AdSupport.framework in Frameworks */,
+				84CE79711BBDE76200E8A602 /* AudioToolbox.framework in Frameworks */,
+				84CE796E1BBDE75600E8A602 /* CoreGraphics.framework in Frameworks */,
+				84CE796F1BBDE75600E8A602 /* CoreTelephony.framework in Frameworks */,
+				84CE796A1BBDE74B00E8A602 /* EventKit.framework in Frameworks */,
+				84CE796B1BBDE74B00E8A602 /* EventKitUI.framework in Frameworks */,
+				84CE79671BBDE74200E8A602 /* MessageUI.framework in Frameworks */,
+				84CE79651BBDE73C00E8A602 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +118,15 @@
 				84CE793D1BBDDC6000E8A602 /* BrapTests */,
 				84CE79481BBDDC6000E8A602 /* BrapUITests */,
 				84CE79271BBDDC6000E8A602 /* Products */,
+				84CE79741BBDE77600E8A602 /* AVFoundation.framework */,
+				84CE79721BBDE76D00E8A602 /* AdSupport.framework */,
+				84CE79701BBDE76200E8A602 /* AudioToolbox.framework */,
+				84CE796C1BBDE75500E8A602 /* CoreGraphics.framework */,
+				84CE796D1BBDE75600E8A602 /* CoreTelephony.framework */,
+				84CE79681BBDE74B00E8A602 /* EventKit.framework */,
+				84CE79691BBDE74B00E8A602 /* EventKitUI.framework */,
+				84CE79661BBDE74200E8A602 /* MessageUI.framework */,
+				84CE79641BBDE73B00E8A602 /* SystemConfiguration.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +143,14 @@
 		84CE79281BBDDC6000E8A602 /* Brap */ = {
 			isa = PBXGroup;
 			children = (
+				84CE799A1BBE0A1300E8A602 /* Brap-Bridging-Header.h */,
+				84CE799B1BBE0A1300E8A602 /* SWRevealViewController.h */,
+				84CE799C1BBE0A1300E8A602 /* SWRevealViewController.m */,
+				84CE79A21BBE1A6900E8A602 /* 2-Stroke.wav */,
+				84CE79A31BBE1A6900E8A602 /* 4-Stroke.wav */,
 				84CE79291BBDDC6000E8A602 /* AppDelegate.swift */,
 				84CE792B1BBDDC6000E8A602 /* ViewController.swift */,
+				84CE797A1BBDF52900E8A602 /* SoundSelector.swift */,
 				84CE792D1BBDDC6000E8A602 /* Main.storyboard */,
 				84CE79301BBDDC6000E8A602 /* Assets.xcassets */,
 				84CE79321BBDDC6000E8A602 /* LaunchScreen.storyboard */,
@@ -187,6 +239,7 @@
 		84CE791E1BBDDC5F00E8A602 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BendyStraw;
 				TargetAttributes = {
@@ -228,6 +281,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CE79A41BBE1A6900E8A602 /* 2-Stroke.wav in Resources */,
+				84CE79A51BBE1A6900E8A602 /* 4-Stroke.wav in Resources */,
 				84CE79341BBDDC6000E8A602 /* LaunchScreen.storyboard in Resources */,
 				84CE79311BBDDC6000E8A602 /* Assets.xcassets in Resources */,
 				84CE792F1BBDDC6000E8A602 /* Main.storyboard in Resources */,
@@ -255,8 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84CE797B1BBDF52900E8A602 /* SoundSelector.swift in Sources */,
 				84CE792C1BBDDC6000E8A602 /* ViewController.swift in Sources */,
 				84CE792A1BBDDC6000E8A602 /* AppDelegate.swift in Sources */,
+				84CE799D1BBE0A1300E8A602 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,10 +455,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Brap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.Brap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Brap/Brap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -409,10 +469,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Brap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.Brap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Brap/Brap-Bridging-Header.h";
 			};
 			name = Release;
 		};
