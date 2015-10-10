@@ -15,9 +15,19 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var player = AVAudioPlayer()
 
     @IBAction func playAudio(sender: AnyObject) {
-        let path = NSBundle.mainBundle().pathForResource(itemSelected, ofType:"wav")
-        print(path!)
-        let fileURL = NSURL(fileURLWithPath: path!)
+        var path: String?
+        var fileURL = NSURL()
+        
+        if itemSelected == data[0] || itemSelected == data[1] {
+            path = NSBundle.mainBundle().pathForResource(itemSelected, ofType:"wav")
+            print(path!)
+            fileURL = NSURL(fileURLWithPath: path!)
+        } else {
+            let documentsDirectory = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0]
+            path = documentsDirectory + "/" + itemSelected + ".m4a"
+            fileURL = NSURL(fileURLWithPath: path!)
+        }
+        
         
         do {
             try player = AVAudioPlayer(contentsOfURL: fileURL)
@@ -39,6 +49,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         ]
         print(itemSelected)
         if self.revealViewController() != nil {
+            self.revealViewController().reloadInputViews()
             menuButton.target = self.revealViewController()
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())

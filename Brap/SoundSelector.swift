@@ -10,11 +10,15 @@ import Foundation
 import UIKit
 
 var itemSelected = "4-Stroke"
+var data = ["4-Stroke", "2-Stroke", "Record new brap"]
+
 class SoundSelector: UITableViewController {
     
-    var data = ["4-Stroke", "2-Stroke"]
-    
-    // MARK: - UITableViewDataSource
+    // Reload the table when view appears to see if there are any new recordings
+    override func viewDidAppear(animated: Bool) {
+        self.tableView.reloadData()
+
+    }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
@@ -28,8 +32,13 @@ class SoundSelector: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print(data[indexPath.row])
-        itemSelected = data[indexPath.row]
+        print(data[indexPath.row] + " here")
+        
+        if data[indexPath.row] == "Record new brap" {
+            performSegueWithIdentifier("record", sender: self)
+        } else {
+            itemSelected = data[indexPath.row]
+        }
         self.revealViewController().revealToggleAnimated(true)
     }
     

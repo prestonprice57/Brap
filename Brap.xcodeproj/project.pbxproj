@@ -27,6 +27,7 @@
 		84CE799D1BBE0A1300E8A602 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE799C1BBE0A1300E8A602 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
 		84CE79A41BBE1A6900E8A602 /* 2-Stroke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79A21BBE1A6900E8A602 /* 2-Stroke.wav */; settings = {ASSET_TAGS = (); }; };
 		84CE79A51BBE1A6900E8A602 /* 4-Stroke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79A31BBE1A6900E8A602 /* 4-Stroke.wav */; settings = {ASSET_TAGS = (); }; };
+		84CE79C01BBEFE5900E8A602 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE79BF1BBEFE5900E8A602 /* RecordView.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		84CE799C1BBE0A1300E8A602 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		84CE79A21BBE1A6900E8A602 /* 2-Stroke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "2-Stroke.wav"; sourceTree = "<group>"; };
 		84CE79A31BBE1A6900E8A602 /* 4-Stroke.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "4-Stroke.wav"; sourceTree = "<group>"; };
+		84CE79BF1BBEFE5900E8A602 /* RecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				84CE79A21BBE1A6900E8A602 /* 2-Stroke.wav */,
 				84CE79A31BBE1A6900E8A602 /* 4-Stroke.wav */,
 				84CE79291BBDDC6000E8A602 /* AppDelegate.swift */,
+				84CE79BF1BBEFE5900E8A602 /* RecordView.swift */,
 				84CE792B1BBDDC6000E8A602 /* ViewController.swift */,
 				84CE797A1BBDF52900E8A602 /* SoundSelector.swift */,
 				84CE792D1BBDDC6000E8A602 /* Main.storyboard */,
@@ -313,6 +316,7 @@
 				84CE797B1BBDF52900E8A602 /* SoundSelector.swift in Sources */,
 				84CE792C1BBDDC6000E8A602 /* ViewController.swift in Sources */,
 				84CE792A1BBDDC6000E8A602 /* AppDelegate.swift in Sources */,
+				84CE79C01BBEFE5900E8A602 /* RecordView.swift in Sources */,
 				84CE799D1BBE0A1300E8A602 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,6 +549,7 @@
 				84CE79501BBDDC6000E8A602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CE79511BBDDC6000E8A602 /* Build configuration list for PBXNativeTarget "BrapTests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +558,7 @@
 				84CE79531BBDDC6000E8A602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84CE79541BBDDC6000E8A602 /* Build configuration list for PBXNativeTarget "BrapUITests" */ = {
 			isa = XCConfigurationList;
@@ -561,6 +567,7 @@
 				84CE79561BBDDC6000E8A602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
