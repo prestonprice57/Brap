@@ -8,9 +8,11 @@
 
 import Foundation
 import AVFoundation
+import GoogleMobileAds
 
-class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelegate {
+class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelegate, UITextFieldDelegate {
     
+    @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var filename: UITextField!
     
     var recorder: AVAudioRecorder?
@@ -20,6 +22,7 @@ class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelega
         dismissViewControllerAnimated(true, completion: nil)
         
     }
+    @IBOutlet weak var bannerView: GADBannerView!
     
     @IBAction func startRecord(sender: AnyObject) {
         // Check to make sure user entered a filename
@@ -70,7 +73,11 @@ class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        textField.delegate = self
         
+        bannerView.adUnitID = "ca-app-pub-2794069200159212/2244222887"
+        bannerView.rootViewController = self
+        //bannerView.loadRequest(GADRequest())
     }
     
     override func didReceiveMemoryWarning() {
@@ -167,5 +174,11 @@ class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelega
             print("could not make session active")
             print(error.localizedDescription)
         }
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool // called when 'return' key pressed. return NO to ignore.
+    {
+        textField.resignFirstResponder()
+        return true;
     }
 }

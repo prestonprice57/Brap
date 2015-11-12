@@ -9,9 +9,12 @@
 import UIKit
 import AVFoundation
 
+import GoogleMobileAds
+
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var menuButton: UIBarButtonItem!
 
+    @IBOutlet weak var bannerView: GADBannerView!
     var player = AVAudioPlayer()
 
     @IBAction func playAudio(sender: AnyObject) {
@@ -56,8 +59,10 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
             self.revealViewController().shouldUseFrontViewOverlay = true
         }
-    
         
+        bannerView.adUnitID = "ca-app-pub-2794069200159212/9767489685"
+        bannerView.rootViewController = self
+       // bannerView.loadRequest(GADRequest())
     }
 
     override func didReceiveMemoryWarning() {

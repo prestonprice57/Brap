@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843451C31BD9B31D0092AC31 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843451C21BD9B31D0092AC31 /* CoreMedia.framework */; };
+		843451C51BD9B32C0092AC31 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843451C41BD9B32C0092AC31 /* StoreKit.framework */; };
+		843451CA1BD9B7760092AC31 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843451C91BD9B7760092AC31 /* GoogleMobileAds.framework */; };
 		84CE792A1BBDDC6000E8A602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE79291BBDDC6000E8A602 /* AppDelegate.swift */; };
 		84CE792C1BBDDC6000E8A602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE792B1BBDDC6000E8A602 /* ViewController.swift */; };
 		84CE792F1BBDDC6000E8A602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CE792D1BBDDC6000E8A602 /* Main.storyboard */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843451C21BD9B31D0092AC31 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		843451C41BD9B32C0092AC31 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		843451C91BD9B7760092AC31 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Brap/GoogleMobileAds.framework; sourceTree = "<group>"; };
 		84CE79261BBDDC6000E8A602 /* Brap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CE79291BBDDC6000E8A602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CE792B1BBDDC6000E8A602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843451CA1BD9B7760092AC31 /* GoogleMobileAds.framework in Frameworks */,
+				843451C51BD9B32C0092AC31 /* StoreKit.framework in Frameworks */,
+				843451C31BD9B31D0092AC31 /* CoreMedia.framework in Frameworks */,
 				84CE79751BBDE77600E8A602 /* AVFoundation.framework in Frameworks */,
 				84CE79731BBDE76D00E8A602 /* AdSupport.framework in Frameworks */,
 				84CE79711BBDE76200E8A602 /* AudioToolbox.framework in Frameworks */,
@@ -116,6 +125,9 @@
 		84CE791D1BBDDC5F00E8A602 = {
 			isa = PBXGroup;
 			children = (
+				843451C91BD9B7760092AC31 /* GoogleMobileAds.framework */,
+				843451C41BD9B32C0092AC31 /* StoreKit.framework */,
+				843451C21BD9B31D0092AC31 /* CoreMedia.framework */,
 				84CE79281BBDDC6000E8A602 /* Brap */,
 				84CE793D1BBDDC6000E8A602 /* BrapTests */,
 				84CE79481BBDDC6000E8A602 /* BrapUITests */,
@@ -248,6 +260,7 @@
 				TargetAttributes = {
 					84CE79251BBDDC6000E8A602 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = QYGVUASNVQ;
 					};
 					84CE79391BBDDC6000E8A602 = {
 						CreatedOnToolsVersion = 7.0;
@@ -392,8 +405,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/admin/Documents/Brap/Brap/GoogleMobileAds.framework;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -408,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -437,8 +452,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /Users/admin/Documents/Brap/Brap/GoogleMobileAds.framework;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -447,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,27 +475,41 @@
 		84CE794F1BBDDC6000E8A602 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Brap",
+				);
 				INFOPLIST_FILE = Brap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.Brap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Brap/Brap-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		84CE79501BBDDC6000E8A602 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Brap",
+				);
 				INFOPLIST_FILE = Brap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BendyStraw.Brap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Brap/Brap-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

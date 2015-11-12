@@ -26,6 +26,7 @@ class SoundSelector: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
+        cell.textLabel?.font = UIFont(name: "GillSans-Light", size: 16)!
         cell.textLabel?.text = data[indexPath.row]
         print(cell.textLabel?.text)
         return cell
@@ -33,7 +34,6 @@ class SoundSelector: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         print(data[indexPath.row] + " here")
-        
         if data[indexPath.row] == "Record new brap" {
             performSegueWithIdentifier("record", sender: self)
         } else {
