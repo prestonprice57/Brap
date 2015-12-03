@@ -31,7 +31,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             fileURL = NSURL(fileURLWithPath: path!)
         }
         
-        
         do {
             try player = AVAudioPlayer(contentsOfURL: fileURL)
             
@@ -62,7 +61,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         bannerView.adUnitID = "ca-app-pub-2794069200159212/9767489685"
         bannerView.rootViewController = self
-       // bannerView.loadRequest(GADRequest())
+        bannerView.loadRequest(GADRequest())
     }
 
     override func didReceiveMemoryWarning() {

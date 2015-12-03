@@ -77,7 +77,7 @@ class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelega
         
         bannerView.adUnitID = "ca-app-pub-2794069200159212/2244222887"
         bannerView.rootViewController = self
-        //bannerView.loadRequest(GADRequest())
+        bannerView.loadRequest(GADRequest())
     }
     
     override func didReceiveMemoryWarning() {
