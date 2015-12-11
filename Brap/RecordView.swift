@@ -10,8 +10,9 @@ import Foundation
 import AVFoundation
 import GoogleMobileAds
 
-class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelegate, UITextFieldDelegate {
-    
+class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelegate, UITextFieldDelegate, GADInterstitialDelegate {
+    var interstitial: GADInterstitial?
+
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var filename: UITextField!
     
@@ -71,10 +72,16 @@ class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelega
         itemSelected = "4-Stroke"
     }
     
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)!
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         textField.delegate = self
         
+        self.interstitial = createAndLoadInterstitial()
+
         bannerView.adUnitID = "ca-app-pub-2794069200159212/2244222887"
         bannerView.rootViewController = self
         bannerView.loadRequest(GADRequest())
@@ -139,6 +146,7 @@ class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelega
         } else {
             print("requestRecordPermission unrecognized")
         }
+        save()
     }
     
     func audioRecorderDidFinishRecording(recorder: AVAudioRecorder,
@@ -179,6 +187,25 @@ class RecordView: UIViewController, AVAudioRecorderDelegate, AVAudioPlayerDelega
     func textFieldShouldReturn(textField: UITextField) -> Bool // called when 'return' key pressed. return NO to ignore.
     {
         textField.resignFirstResponder()
+        if (interstitial!.isReady) {
+            interstitial!.presentFromRootViewController(self)
+        }
         return true;
+    }
+    
+    func createAndLoadInterstitial() -> GADInterstitial {
+        let interstitial = GADInterstitial(adUnitID: "ca-app-pub-2794069200159212/7827923680")
+        interstitial.delegate = self
+        interstitial.loadRequest(GADRequest())
+        return interstitial
+    }
+    
+    func save() {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults.setObject(data, forKey: "data")
+    }
+    
+    func interstitialDidDismissScreen (interstitial: GADInterstitial) {
+        self.interstitial = createAndLoadInterstitial()
     }
 }

@@ -13,7 +13,7 @@ import GoogleMobileAds
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var menuButton: UIBarButtonItem!
-
+    
     @IBOutlet weak var bannerView: GADBannerView!
     var player = AVAudioPlayer()
 
@@ -59,9 +59,14 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             self.revealViewController().shouldUseFrontViewOverlay = true
         }
         
-        bannerView.adUnitID = "ca-app-pub-2794069200159212/9767489685"
+        bannerView.adUnitID = "ca-app-pub-2794069200159212//9767489685"
         bannerView.rootViewController = self
         bannerView.loadRequest(GADRequest())
+        
+        let defaults = NSUserDefaults.standardUserDefaults()
+        if let savedData = defaults.objectForKey("data") as? [String] {
+            data = savedData
+        }
     }
 
     override func didReceiveMemoryWarning() {

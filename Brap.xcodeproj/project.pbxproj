@@ -10,6 +10,7 @@
 		843451C31BD9B31D0092AC31 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843451C21BD9B31D0092AC31 /* CoreMedia.framework */; };
 		843451C51BD9B32C0092AC31 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843451C41BD9B32C0092AC31 /* StoreKit.framework */; };
 		843451CA1BD9B7760092AC31 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843451C91BD9B7760092AC31 /* GoogleMobileAds.framework */; };
+		84C6AEAA1C1B7353000D8A54 /* Sounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6AEA91C1B7353000D8A54 /* Sounds.swift */; };
 		84CE792A1BBDDC6000E8A602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE79291BBDDC6000E8A602 /* AppDelegate.swift */; };
 		84CE792C1BBDDC6000E8A602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE792B1BBDDC6000E8A602 /* ViewController.swift */; };
 		84CE792F1BBDDC6000E8A602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CE792D1BBDDC6000E8A602 /* Main.storyboard */; };
@@ -26,11 +27,11 @@
 		84CE79711BBDE76200E8A602 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79701BBDE76200E8A602 /* AudioToolbox.framework */; };
 		84CE79731BBDE76D00E8A602 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79721BBDE76D00E8A602 /* AdSupport.framework */; };
 		84CE79751BBDE77600E8A602 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CE79741BBDE77600E8A602 /* AVFoundation.framework */; };
-		84CE797B1BBDF52900E8A602 /* SoundSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE797A1BBDF52900E8A602 /* SoundSelector.swift */; settings = {ASSET_TAGS = (); }; };
-		84CE799D1BBE0A1300E8A602 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE799C1BBE0A1300E8A602 /* SWRevealViewController.m */; settings = {ASSET_TAGS = (); }; };
-		84CE79A41BBE1A6900E8A602 /* 2-Stroke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79A21BBE1A6900E8A602 /* 2-Stroke.wav */; settings = {ASSET_TAGS = (); }; };
-		84CE79A51BBE1A6900E8A602 /* 4-Stroke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79A31BBE1A6900E8A602 /* 4-Stroke.wav */; settings = {ASSET_TAGS = (); }; };
-		84CE79C01BBEFE5900E8A602 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE79BF1BBEFE5900E8A602 /* RecordView.swift */; settings = {ASSET_TAGS = (); }; };
+		84CE797B1BBDF52900E8A602 /* SoundSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE797A1BBDF52900E8A602 /* SoundSelector.swift */; };
+		84CE799D1BBE0A1300E8A602 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE799C1BBE0A1300E8A602 /* SWRevealViewController.m */; };
+		84CE79A41BBE1A6900E8A602 /* 2-Stroke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79A21BBE1A6900E8A602 /* 2-Stroke.wav */; };
+		84CE79A51BBE1A6900E8A602 /* 4-Stroke.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84CE79A31BBE1A6900E8A602 /* 4-Stroke.wav */; };
+		84CE79C01BBEFE5900E8A602 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CE79BF1BBEFE5900E8A602 /* RecordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		843451C21BD9B31D0092AC31 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		843451C41BD9B32C0092AC31 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		843451C91BD9B7760092AC31 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Brap/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		84C6AEA91C1B7353000D8A54 /* Sounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sounds.swift; sourceTree = "<group>"; };
 		84CE79261BBDDC6000E8A602 /* Brap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CE79291BBDDC6000E8A602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CE792B1BBDDC6000E8A602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				84CE79301BBDDC6000E8A602 /* Assets.xcassets */,
 				84CE79321BBDDC6000E8A602 /* LaunchScreen.storyboard */,
 				84CE79351BBDDC6000E8A602 /* Info.plist */,
+				84C6AEA91C1B7353000D8A54 /* Sounds.swift */,
 			);
 			path = Brap;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				84CE797B1BBDF52900E8A602 /* SoundSelector.swift in Sources */,
 				84CE792C1BBDDC6000E8A602 /* ViewController.swift in Sources */,
 				84CE792A1BBDDC6000E8A602 /* AppDelegate.swift in Sources */,
+				84C6AEAA1C1B7353000D8A54 /* Sounds.swift in Sources */,
 				84CE79C01BBEFE5900E8A602 /* RecordView.swift in Sources */,
 				84CE799D1BBE0A1300E8A602 /* SWRevealViewController.m in Sources */,
 			);
